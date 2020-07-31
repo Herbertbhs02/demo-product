@@ -1,0 +1,114 @@
+<%- include("partials/header"); -%>
+  
+  <div class="container ">
+    <h1>Demo Product</h1>
+    <div class="modal-icon">
+      <h2>Living Room </h2>
+        <!-- Product1 Modal Trigger -->
+      <a class="btn-floating btn-small  waves-light red modal1 modal-trigger" href="#product1">?</i></a>
+        <!-- Product2 Modal Trigger -->
+      <a class="btn-floating btn-small  waves-light red modal2 modal-trigger" href="#product2">?</i></a>
+        <!-- Product3 Modal Trigger -->
+      <a class="btn-floating btn-small  waves-light red modal3 modal-trigger" href="#product3">?</i></a>
+         <!-- Product4 Modal Trigger -->
+      <a class="btn-floating btn-small  waves-light red modal4 modal-trigger" href="#product4">?</i></a>
+     
+      <img src="css\livingRoom.jpg" alt="House accessories" width="700" height="500">
+    </div>
+    
+ <!-- Modal Trigger -->
+ <!-- <a class=" waves-light btn modal1 modal-trigger" href="#modal1">Modal</a> -->
+
+ <!-- Product2 Modal Structure -->
+ <div id="product1" class="modal">
+   <div class="modal-content">
+     <b>Lena Two-seater Sofa – White </b>
+     <p>£549</p>
+     <img src="css\sofa.jpg" alt="House accessories" width="200" height="100">
+   </div>
+   <div class="modal-footer">
+     <a href="product1" class="modal-close waves-effect waves-green btn-flat">More</a>
+     <a href="#!" class="modal-close waves-effect waves-green btn-flat">close</a>
+   </div>
+ </div>
+       
+  <script>
+      document.addEventListener('DOMContentLoaded', function() {
+     var elems = document.querySelectorAll('.modal');
+     var instances = M.Modal.init(elems,{opacity:0.1, endingTop:'30%'});
+  });
+ </script>
+
+ <!-- Product2 Modal Structure -->
+ <div id="product2" class="modal">
+  <div class="modal-content">
+    <b>Jany Tripod Floor Lamp </b>
+    <p>£38.99</p>
+    <img src="css\TripodFloorLamp.jpg" alt="House accessories" width="200" height="200">
+    
+  </div>
+  <div class="modal-footer">
+    <a href="product2" class="modal-close waves-effect waves-green btn-flat">More</a>
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">close</a>
+  </div>
+</div>
+</div>   
+   
+ <script>
+     document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems,{opacity:0.1, endingTop:'30%'});
+ });
+</script>
+
+<!-- Product3 Modal Structure -->
+<div id="product3" class="modal">
+  <div class="modal-content">
+    <b>Ella Pendant Lighting – Beige </b>
+    <p>£25.49</p>
+    <img src="css\lighting.jpg" alt="House accessories" width="200" height="200">
+    
+  </div>
+  <div class="modal-footer">
+    <a href="product3" class="modal-close waves-effect waves-green btn-flat">More</a>
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">close</a>
+  </div>
+</div>
+</div>   
+   
+ <script>
+     document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems,{opacity:0.1, endingTop:'30%'});
+ });
+</script>
+
+<!-- Product4 Modal Structure -->
+<div id="product4" class="modal">
+  <div class="modal-content">
+    <b>Elegancy Set of two Framed prints- Black and Gold </b>
+    <p>£35</p>
+    <img src="css\Wallart.jpg" alt="House accessories" width="300" height="200">
+    
+  </div>
+  <div class="modal-footer">
+    <a href="product4" class="modal-close waves-effect waves-green btn-flat">More</a>
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">close</a>
+  </div>
+</div>
+</div>   
+   
+ <script>
+     document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems,{opacity:0.1, endingTop:'30%'});
+ });
+</script>
+
+
+</body>
+
+</html>
+
+
+

@@ -1,0 +1,54 @@
+body{
+    
+     background-color: aliceblue;
+}
+
+
+.modal-icon{
+    position: relative;
+    background-color: #ADD8E6;
+    width: 700px;
+}
+
+.modal{
+    background-color: white;
+    width:400px;
+}
+
+
+.modal1{
+    position: absolute;
+    top: 400px;
+    left: 430px;
+    background-color: red;
+}
+
+.modal2{
+    position: absolute !important;
+    top: 190px;
+    left: 580px;
+    background-color:red !important;
+}
+
+.modal3{
+    position: absolute !important;
+    top: 150px;
+    left: 300px;
+    background-color:red !important;
+}
+
+.modal4{
+    position: absolute !important;
+    top: 200px;
+    left: 400px;
+    background-color:red !important;
+}
+
+
+.img{
+    position: absolute !important;
+    margin-bottom: 0px;
+    width:700px;
+    height:500px;
+}
+
